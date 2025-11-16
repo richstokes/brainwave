@@ -317,20 +317,6 @@ app.py
 - **No tool use**: Agents only have text I/O, no external tools
 - **Conservative evaluation**: Coordinator may be overly critical and iterate unnecessarily
 
-## Future Enhancements
-
-- [ ] Add task graph visualization to CLI output
-- [ ] Implement true parallel task execution (asyncio/threads)
-- [ ] Add tool use for agents (web search, code execution, file I/O, etc.)
-- [ ] Persistent task storage (SQLite, JSON files)
-- [ ] Worker reuse across iterations (if a worker is still useful)
-- [ ] Human-in-the-loop evaluation (user approves/rejects results)
-- [ ] Token usage tracking and cost estimation
-- [ ] Streaming responses for real-time feedback
-- [ ] Web UI for monitoring task progress
-- [ ] Multi-model support (different models for different workers)
-- [ ] Result caching to avoid redundant work
-
 ## License
 
 MIT
