@@ -1,10 +1,10 @@
-# Brainwave 🧠
+# Multi-llama 🧠🦙
 
 A minimal but working multi-agent LLM orchestrator in Python, powered by Ollama.
 
 ## Overview
 
-Brainwave implements an intelligent multi-agent system with:
+Multi-llama implements an intelligent multi-agent system with:
 - **One coordinator agent** (the "brain") that:
   - Dynamically defines specialized worker agents (up to 5) tailored to each task
   - Plans and delegates subtasks
@@ -100,7 +100,7 @@ Final Answer
 
 ```bash
 # Clone or navigate to the repo
-cd brainwave
+cd Multi-llama
 
 # Install dependencies with uv
 uv sync
